@@ -18,3 +18,4 @@ if(verifiedRequest) {
 }
 ```
 - If the decoded value is legitimate, then we call ```next()```.
+- To logout, use ```res.clearCookie("cookieName")```
